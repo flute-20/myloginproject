@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="frontend.js" defer></script>
+</head>
+<body>
+    <main>
+        <section>
+            <form id="signupform" onsubmit="signupbtn(event)">
+                <fieldset>
+                    <legend>
+                        <h3>Sign-up Form</h3>
+                    </legend> 
+                    <div id="message"></div> <!-- Message Display -->
+                    <input type="text" id="name" name="name" placeholder="Name">
+                    <input type="email" id="s_email" name="email" placeholder="Email">
+                    <input type="tel" id="phone_no" name="phone_no" placeholder="Telephone No." >
+                    <input type="password" id="s_password" name="password" placeholder="Password">
+                    <input type="submit" id="signup" value="Sign-up">
+                    <pre>Existing-User? <a href="index.html">Login</a></pre>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
